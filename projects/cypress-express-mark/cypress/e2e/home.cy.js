@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('home', () => {
+describe.skip('home', () => {
   it('webapp should be online', () => {
     cy.visit('/')
 

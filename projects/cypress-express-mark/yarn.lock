@@ -31,6 +31,11 @@
     tunnel-agent "^0.6.0"
     uuid "^8.3.2"
 
+"@cypress/xpath@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@cypress/xpath/-/xpath-2.0.3.tgz#9a631d12cb935ba493fd30290163bde54c3c1428"
+  integrity sha512-Seilxmws+yty5lZSbwbjEOOiEbr7O1bCxKy2FC4jwMssC22yjByb5orDfBZPLZXYfmWZafJjvZFwts4Q3CzQAg==
+
 "@cypress/xvfb@^1.2.4":
   version "1.2.4"
   resolved "https://registry.npmjs.org/@cypress/xvfb/-/xvfb-1.2.4.tgz"
@@ -357,6 +362,11 @@ crypto-js@4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/crypto-js/-/crypto-js-4.2.0.tgz"
   integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
+
+cypress-real-events@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/cypress-real-events/-/cypress-real-events-1.12.0.tgz#ffeb2b23686ba5b16ac91dd9bc3b6785d36d38d3"
+  integrity sha512-oiy+4kGKkzc2PT36k3GGQqkGxNiVypheWjMtfyi89iIk6bYmTzeqxapaLHS3pnhZOX1IEbTDUVxh8T4Nhs1tyQ==
 
 cypress@^13.9.0:
   version "13.9.0"

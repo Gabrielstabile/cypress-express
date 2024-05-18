@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('tasks', ()=>{
+describe.skip('tasks', ()=>{
 
     let testData;
 

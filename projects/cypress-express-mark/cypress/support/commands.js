@@ -29,6 +29,9 @@ Cypress.Commands.add('createTask', (taskName = '')=> {
     cy.visit('/')     
 
     if(taskName !== ''){
+        //using xpath library for supporting xpath
+        //cy.xpath('//*[@id="newTask"]').type(taskName)
+
         cy.get('input[placeholder="Add a new Task"]').type(taskName)
     }
 
