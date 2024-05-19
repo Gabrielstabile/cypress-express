@@ -14,7 +14,7 @@ describe('united lex testing', () => {
             .should('be.visible')
       })
 
-      it.only('Fill some contact us form, but not submitting', { tags: ['@smoke'] }, () => {
+      it('Fill some contact us form, but not submitting', { tags: ['@smoke'] }, () => {
         cy.contains('span', "Let’s Connect ")
             .click()
 
@@ -36,6 +36,6 @@ describe('united lex testing', () => {
         cy.get('input[value=SUBMIT]').click()
 
         cy.get('label[class=hs-main-font-element]')
-            .should('have.text', 'Please complete all required fields.s')
+            .should('have.text', 'Please complete all required fields.')
       })
 })
